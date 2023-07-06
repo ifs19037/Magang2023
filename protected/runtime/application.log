@@ -1,0 +1,724 @@
+2023/07/04 05:44:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gii". in C:\yii\yii\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/magang/index.php?r=gii
+---
+2023/07/06 08:25:38 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\yii\yii\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\yii\yii\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('wilayah/admin')
+#9 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/magang/index.php?r=wilayah/admin
+HTTP_REFERER=http://localhost/magang/index.php?r=site/login
+---
+2023/07/06 08:25:58 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\yii\yii\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\yii\yii\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('wilayah/admin')
+#9 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/magang/index.php?r=wilayah/admin
+HTTP_REFERER=http://localhost/magang/index.php?r=site/login
+---
+2023/07/06 08:57:22 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\yii\yii\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\yii\yii\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pegawai/admin')
+#9 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/magang/index.php?r=pegawai/admin
+HTTP_REFERER=http://localhost/magang/index.php?r=pegawai/index
+---
+2023/07/06 08:57:28 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\yii\yii\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\yii\yii\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/magang/index.php?r=user/admin
+HTTP_REFERER=http://localhost/magang/index.php?r=user/index
+---
+2023/07/06 09:45:21 [error] [php] Undefined variable $model (C:\xampp\htdocs\magang\protected\views\role\index.php:18)
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\CBaseController.php(126): require()
+#1 C:\yii\yii\yii\framework\web\CBaseController.php(95): RoleController->renderInternal()
+#2 C:\yii\yii\yii\framework\web\CController.php(872): RoleController->renderFile()
+#3 C:\yii\yii\yii\framework\web\CController.php(785): RoleController->renderPartial()
+#4 C:\xampp\htdocs\magang\protected\controllers\RoleController.php(127): RoleController->render()
+#5 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): RoleController->actionIndex()
+#6 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): RoleController->runAction()
+#8 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\yii\yii\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): RoleController->filterAccessControl()
+#11 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\yii\yii\yii\framework\web\CController.php(265): RoleController->runActionWithFilters()
+#14 C:\yii\yii\yii\framework\web\CWebApplication.php(282): RoleController->run()
+#15 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\magang\index.php(13): CWebApplication->run()
+REQUEST_URI=/magang/index.php?r=role/index
+in C:\xampp\htdocs\magang\protected\views\role\index.php (18)
+in C:\xampp\htdocs\magang\protected\controllers\RoleController.php (127)
+in C:\xampp\htdocs\magang\index.php (13)
+2023/07/06 10:20:30 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "-view". in C:\yii\yii\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\CController.php(270): CController->missingAction('-view')
+#1 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('-view')
+#2 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('role/-view')
+#3 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/magang/index.php?r=role/-view
+---
+2023/07/06 10:20:39 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "_view". in C:\yii\yii\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\CController.php(270): CController->missingAction('_view')
+#1 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('_view')
+#2 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('role/_view')
+#3 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/magang/index.php?r=role/_view
+---
+2023/07/06 10:34:13 [error] [exception.CException] CException: Property "LoginForm.errorMessage" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\magang\protected\controllers\SiteController.php(99): CComponent->__set('errorMessage', 'Username or pas...')
+#1 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#2 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\yii\yii\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#6 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#7 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/magang/index.php?r=site/login
+HTTP_REFERER=http://localhost/magang/index.php?r=site/login
+---
+2023/07/06 13:10:21 [error] [exception.CException] CException: Property "Pendaftaran.id_obat" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\yii\yii\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_obat')
+#1 C:\yii\yii\yii\framework\web\helpers\CHtml.php(2784): CActiveRecord->__get('id_obat')
+#2 C:\yii\yii\yii\framework\web\helpers\CHtml.php(2008): CHtml::resolveValue(Object(Pendaftaran), 'id_obat')
+#3 C:\yii\yii\yii\framework\web\widgets\CActiveForm.php(915): CHtml::activeDropDownList(Object(Pendaftaran), 'id_obat', Array, Array)
+#4 C:\xampp\htdocs\magang\protected\views\pendaftaran\_form.php(42): CActiveForm->dropDownList(Object(Pendaftaran), 'id_obat', Array)
+#5 C:\yii\yii\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\yii\yii\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\yii\yii\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\magang\protected\views\pendaftaran\create.php(18): CController->renderPartial('_form', Array)
+#9 C:\yii\yii\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\yii\yii\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\yii\yii\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\yii\yii\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#13 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(59): CController->render('create', Array)
+#14 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#15 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#19 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#24 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#25 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/index
+---
+2023/07/06 13:42:08 [error] [exception.CException] CException: Property "Pendaftaran.id_obat" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\yii\yii\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_obat')
+#1 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(55): CActiveRecord->__get('id_obat')
+#2 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#3 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#13 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/create
+---
+2023/07/06 13:46:13 [error] [exception.CException] CException: Property "Pendaftaran.nama_obat" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\yii\yii\yii\framework\db\ar\CActiveRecord.php(162): CComponent->__set('nama_obat', 'Chlorphenamine ...')
+#1 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(57): CActiveRecord->__set('nama_obat', 'Chlorphenamine ...')
+#2 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#3 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#13 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/create
+---
+2023/07/06 14:44:52 [error] [exception.CException] CException: Property "Pendaftaran.obat_id" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\yii\yii\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('obat_id')
+#1 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(57): CActiveRecord->__get('obat_id')
+#2 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#3 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#13 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/create
+---
+2023/07/06 14:45:06 [error] [exception.CException] CException: Property "Pendaftaran.id_obat" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\yii\yii\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_obat')
+#1 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(57): CActiveRecord->__get('id_obat')
+#2 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#3 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#13 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/create
+---
+2023/07/06 14:48:26 [error] [exception.CException] CException: Property "Pendaftaran.nama_obat" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\yii\yii\yii\framework\db\ar\CActiveRecord.php(162): CComponent->__set('nama_obat', 'Chlorphenamine ...')
+#1 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(59): CActiveRecord->__set('nama_obat', 'Chlorphenamine ...')
+#2 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#3 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#13 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/create
+---
+2023/07/06 14:49:04 [error] [exception.CException] CException: Property "Obat.obat_pendaftaran" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\yii\yii\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('obat_pendaftara...')
+#1 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(59): CActiveRecord->__get('obat_pendaftara...')
+#2 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#3 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#13 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/create
+---
+2023/07/06 14:49:23 [error] [exception.CException] CException: Property "Obat.obat_pendaftaran" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\yii\yii\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('obat_pendaftara...')
+#1 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(59): CActiveRecord->__get('obat_pendaftara...')
+#2 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#3 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#13 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/create
+---
+2023/07/06 14:49:43 [error] [exception.CException] CException: Property "Pendaftaran.id_obat" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\yii\yii\yii\framework\db\ar\CActiveRecord.php(162): CComponent->__set('id_obat', '1')
+#1 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(59): CActiveRecord->__set('id_obat', '1')
+#2 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#3 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#13 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/create
+---
+2023/07/06 14:50:08 [error] [exception.CException] CException: Property "Obat.obat_pendaftaran" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\yii\yii\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('obat_pendaftara...')
+#1 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(59): CActiveRecord->__get('obat_pendaftara...')
+#2 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#3 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#13 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/create
+---
+2023/07/06 14:50:16 [error] [exception.CException] CException: Property "Pendaftaran.id_obat" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\yii\yii\yii\framework\db\ar\CActiveRecord.php(162): CComponent->__set('id_obat', '1')
+#1 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(59): CActiveRecord->__set('id_obat', '1')
+#2 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#3 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#13 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/create
+---
+2023/07/06 14:51:33 [error] [exception.CException] CException: Property "Pendaftaran.id_obat" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\yii\yii\yii\framework\db\ar\CActiveRecord.php(162): CComponent->__set('id_obat', '1')
+#1 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(59): CActiveRecord->__set('id_obat', '1')
+#2 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#3 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#13 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/create
+---
+2023/07/06 14:51:48 [error] [exception.CException] CException: Property "Pendaftaran.obat_id" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\yii\yii\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('obat_id')
+#1 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(57): CActiveRecord->__get('obat_id')
+#2 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#3 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#13 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/create
+---
+2023/07/06 14:56:45 [error] [exception.CException] CException: Property "Pendaftaran.id_obat" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\yii\yii\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_obat')
+#1 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(57): CActiveRecord->__get('id_obat')
+#2 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#3 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#13 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/create
+---
+2023/07/06 14:57:10 [error] [exception.CException] CException: Property "Pendaftaran.id_obat" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\yii\yii\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_obat')
+#1 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(57): CActiveRecord->__get('id_obat')
+#2 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#3 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#13 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/create
+---
+2023/07/06 14:58:06 [error] [exception.CException] CException: Property "Pendaftaran.nama_obat" is not defined. in C:\yii\yii\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\yii\yii\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('nama_obat')
+#1 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(57): CActiveRecord->__get('nama_obat')
+#2 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#3 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#13 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/create
+---
+2023/07/06 15:11:19 [error] [exception.Error] Error: Class "yii\helpers\ArrayHelper" not found in C:\xampp\htdocs\magang\protected\views\pendaftaran\_form.php:56
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\CBaseController.php(126): require()
+#1 C:\yii\yii\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#2 C:\yii\yii\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\magang\protected\views\pendaftaran\create.php(18): CController->renderPartial('_form', Array)
+#4 C:\yii\yii\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\yii\yii\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\yii\yii\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\yii\yii\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#8 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(68): CController->render('create', Array)
+#9 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#10 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#20 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/index
+---
+2023/07/06 15:17:16 [error] [exception.Error] Error: Call to a member function asArray() on array in C:\xampp\htdocs\magang\protected\views\pendaftaran\_form.php:57
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\CBaseController.php(126): require()
+#1 C:\yii\yii\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#2 C:\yii\yii\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\magang\protected\views\pendaftaran\create.php(18): CController->renderPartial('_form', Array)
+#4 C:\yii\yii\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\yii\yii\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\yii\yii\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\yii\yii\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#8 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(68): CController->render('create', Array)
+#9 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#10 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#20 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/index
+---
+2023/07/06 15:19:49 [error] [exception.Error] Error: Call to a member function listData() on array in C:\xampp\htdocs\magang\protected\views\pendaftaran\_form.php:57
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\CBaseController.php(126): require()
+#1 C:\yii\yii\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#2 C:\yii\yii\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\magang\protected\views\pendaftaran\create.php(18): CController->renderPartial('_form', Array)
+#4 C:\yii\yii\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\yii\yii\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\yii\yii\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\yii\yii\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#8 C:\xampp\htdocs\magang\protected\controllers\PendaftaranController.php(68): CController->render('create', Array)
+#9 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): PendaftaranController->actionCreate()
+#10 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\yii\yii\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\yii\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\yii\yii\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pendaftaran/cre...')
+#20 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\magang\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/magang/index.php?r=pendaftaran/create
+HTTP_REFERER=http://localhost/magang/index.php?r=pendaftaran/index
+---
+2023/07/06 15:38:12 [error] [php] foreach() argument must be of type array|object, null given (C:\yii\yii\yii\framework\web\auth\CAccessControlFilter.php:104)
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\CController.php(1147): CAccessControlFilter->setRules()
+#1 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): PegawaiController->filterAccessControl()
+#2 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#3 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#4 C:\yii\yii\yii\framework\web\CController.php(265): PegawaiController->runActionWithFilters()
+#5 C:\yii\yii\yii\framework\web\CWebApplication.php(282): PegawaiController->run()
+#6 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\magang\index.php(13): CWebApplication->run()
+REQUEST_URI=/magang/index.php?r=pegawai/index
+in C:\xampp\htdocs\magang\index.php (13)
+2023/07/06 16:06:24 [error] [php] Undefined variable $data (C:\xampp\htdocs\magang\protected\views\transaksi\index.php:27)
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\CBaseController.php(126): require()
+#1 C:\yii\yii\yii\framework\web\CBaseController.php(95): TransaksiController->renderInternal()
+#2 C:\yii\yii\yii\framework\web\CController.php(872): TransaksiController->renderFile()
+#3 C:\yii\yii\yii\framework\web\CController.php(785): TransaksiController->renderPartial()
+#4 C:\xampp\htdocs\magang\protected\controllers\TransaksiController.php(110): TransaksiController->render()
+#5 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): TransaksiController->actionIndex()
+#6 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): TransaksiController->runAction()
+#8 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\yii\yii\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): TransaksiController->filterAccessControl()
+#11 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\yii\yii\yii\framework\web\CController.php(265): TransaksiController->runActionWithFilters()
+#14 C:\yii\yii\yii\framework\web\CWebApplication.php(282): TransaksiController->run()
+#15 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\magang\index.php(13): CWebApplication->run()
+REQUEST_URI=/magang/index.php?r=transaksi/index
+in C:\xampp\htdocs\magang\protected\views\transaksi\index.php (27)
+in C:\xampp\htdocs\magang\protected\controllers\TransaksiController.php (110)
+in C:\xampp\htdocs\magang\index.php (13)
+2023/07/06 16:09:49 [error] [php] Undefined variable $data (C:\xampp\htdocs\magang\protected\views\transaksi\index.php:27)
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\CBaseController.php(126): require()
+#1 C:\yii\yii\yii\framework\web\CBaseController.php(95): TransaksiController->renderInternal()
+#2 C:\yii\yii\yii\framework\web\CController.php(872): TransaksiController->renderFile()
+#3 C:\yii\yii\yii\framework\web\CController.php(785): TransaksiController->renderPartial()
+#4 C:\xampp\htdocs\magang\protected\controllers\TransaksiController.php(110): TransaksiController->render()
+#5 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): TransaksiController->actionIndex()
+#6 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): TransaksiController->runAction()
+#8 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\yii\yii\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): TransaksiController->filterAccessControl()
+#11 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\yii\yii\yii\framework\web\CController.php(265): TransaksiController->runActionWithFilters()
+#14 C:\yii\yii\yii\framework\web\CWebApplication.php(282): TransaksiController->run()
+#15 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\magang\index.php(13): CWebApplication->run()
+REQUEST_URI=/magang/index.php?r=transaksi/index
+in C:\xampp\htdocs\magang\protected\views\transaksi\index.php (27)
+in C:\xampp\htdocs\magang\protected\controllers\TransaksiController.php (110)
+in C:\xampp\htdocs\magang\index.php (13)
+2023/07/06 16:10:59 [error] [php] Undefined variable $data (C:\xampp\htdocs\magang\protected\views\transaksi\index.php:27)
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\CBaseController.php(126): require()
+#1 C:\yii\yii\yii\framework\web\CBaseController.php(95): TransaksiController->renderInternal()
+#2 C:\yii\yii\yii\framework\web\CController.php(872): TransaksiController->renderFile()
+#3 C:\yii\yii\yii\framework\web\CController.php(785): TransaksiController->renderPartial()
+#4 C:\xampp\htdocs\magang\protected\controllers\TransaksiController.php(110): TransaksiController->render()
+#5 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): TransaksiController->actionIndex()
+#6 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): TransaksiController->runAction()
+#8 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\yii\yii\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): TransaksiController->filterAccessControl()
+#11 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\yii\yii\yii\framework\web\CController.php(265): TransaksiController->runActionWithFilters()
+#14 C:\yii\yii\yii\framework\web\CWebApplication.php(282): TransaksiController->run()
+#15 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\magang\index.php(13): CWebApplication->run()
+REQUEST_URI=/magang/index.php?r=transaksi/index
+in C:\xampp\htdocs\magang\protected\views\transaksi\index.php (27)
+in C:\xampp\htdocs\magang\protected\controllers\TransaksiController.php (110)
+in C:\xampp\htdocs\magang\index.php (13)
+2023/07/06 16:11:00 [error] [php] Undefined variable $data (C:\xampp\htdocs\magang\protected\views\transaksi\index.php:27)
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\CBaseController.php(126): require()
+#1 C:\yii\yii\yii\framework\web\CBaseController.php(95): TransaksiController->renderInternal()
+#2 C:\yii\yii\yii\framework\web\CController.php(872): TransaksiController->renderFile()
+#3 C:\yii\yii\yii\framework\web\CController.php(785): TransaksiController->renderPartial()
+#4 C:\xampp\htdocs\magang\protected\controllers\TransaksiController.php(110): TransaksiController->render()
+#5 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): TransaksiController->actionIndex()
+#6 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): TransaksiController->runAction()
+#8 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\yii\yii\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): TransaksiController->filterAccessControl()
+#11 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\yii\yii\yii\framework\web\CController.php(265): TransaksiController->runActionWithFilters()
+#14 C:\yii\yii\yii\framework\web\CWebApplication.php(282): TransaksiController->run()
+#15 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\magang\index.php(13): CWebApplication->run()
+REQUEST_URI=/magang/index.php?r=transaksi/index
+in C:\xampp\htdocs\magang\protected\views\transaksi\index.php (27)
+in C:\xampp\htdocs\magang\protected\controllers\TransaksiController.php (110)
+in C:\xampp\htdocs\magang\index.php (13)
+2023/07/06 16:11:01 [error] [php] Undefined variable $data (C:\xampp\htdocs\magang\protected\views\transaksi\index.php:27)
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\CBaseController.php(126): require()
+#1 C:\yii\yii\yii\framework\web\CBaseController.php(95): TransaksiController->renderInternal()
+#2 C:\yii\yii\yii\framework\web\CController.php(872): TransaksiController->renderFile()
+#3 C:\yii\yii\yii\framework\web\CController.php(785): TransaksiController->renderPartial()
+#4 C:\xampp\htdocs\magang\protected\controllers\TransaksiController.php(110): TransaksiController->render()
+#5 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): TransaksiController->actionIndex()
+#6 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): TransaksiController->runAction()
+#8 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\yii\yii\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): TransaksiController->filterAccessControl()
+#11 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\yii\yii\yii\framework\web\CController.php(265): TransaksiController->runActionWithFilters()
+#14 C:\yii\yii\yii\framework\web\CWebApplication.php(282): TransaksiController->run()
+#15 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\magang\index.php(13): CWebApplication->run()
+REQUEST_URI=/magang/index.php?r=transaksi/index
+in C:\xampp\htdocs\magang\protected\views\transaksi\index.php (27)
+in C:\xampp\htdocs\magang\protected\controllers\TransaksiController.php (110)
+in C:\xampp\htdocs\magang\index.php (13)
+2023/07/06 16:11:27 [error] [php] Undefined variable $item (C:\xampp\htdocs\magang\protected\views\transaksi\index.php:29)
+Stack trace:
+#0 C:\yii\yii\yii\framework\web\CBaseController.php(126): require()
+#1 C:\yii\yii\yii\framework\web\CBaseController.php(95): TransaksiController->renderInternal()
+#2 C:\yii\yii\yii\framework\web\CController.php(872): TransaksiController->renderFile()
+#3 C:\yii\yii\yii\framework\web\CController.php(785): TransaksiController->renderPartial()
+#4 C:\xampp\htdocs\magang\protected\controllers\TransaksiController.php(109): TransaksiController->render()
+#5 C:\yii\yii\yii\framework\web\actions\CInlineAction.php(49): TransaksiController->actionIndex()
+#6 C:\yii\yii\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(134): TransaksiController->runAction()
+#8 C:\yii\yii\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\yii\yii\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\yii\yii\yii\framework\web\filters\CInlineFilter.php(58): TransaksiController->filterAccessControl()
+#11 C:\yii\yii\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\yii\yii\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\yii\yii\yii\framework\web\CController.php(265): TransaksiController->runActionWithFilters()
+#14 C:\yii\yii\yii\framework\web\CWebApplication.php(282): TransaksiController->run()
+#15 C:\yii\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\yii\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\magang\index.php(13): CWebApplication->run()
+REQUEST_URI=/magang/index.php?r=transaksi/index
+in C:\xampp\htdocs\magang\protected\views\transaksi\index.php (29)
+in C:\xampp\htdocs\magang\protected\controllers\TransaksiController.php (109)
+in C:\xampp\htdocs\magang\index.php (13)
